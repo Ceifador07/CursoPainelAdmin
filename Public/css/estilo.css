@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'mulish';
+    src: url("../fonts/Mulish-VariableFont_wght.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'mulish';
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    background-color: #eee;
+}
+.container{
+    display: flex;
+    width: 100%;
+}
+header{
+    width: 300px;
+    height: 100vh;
+    background-color: rgb(0, 174, 255);
+    display: block;
+
+}
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.281);
+}
+.logo a h2{
+    color: #000;
+    font-size: 30px;
+}
+nav{
+    width: 100%;
+    margin: 20px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.281);
+    padding: 10px 0;
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: block;
+}
+nav ul li {
+    width: 100%;
+    
+    
+}
+nav ul li a{
+    padding: 10px;
+    width: 100%;
+    color: #000;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.active,
+nav ul li a:hover{
+    background-color: #eee;
+}
+
+/* conteudos */
+.conteudo {
+    width: 100%;
+}
+.nav{
+    height: 60px;
+    background-color: rgb(14, 188, 231);
+    
+}
+.humber{
+     padding: 4px;
+}
+.humber button{
+    width: 40px;
+    border: none;
+    outline: none;
+    background: none;
+}
